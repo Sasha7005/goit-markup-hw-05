@@ -58,7 +58,7 @@
       <section class="page-title">
         <div class="container container-title">
           <h1 class="title">Effective Solutions for Your Business</h1>
-          <button type="button" class="btn">
+          <button type="button" class="btn" data-modal-open>
             <span class="btn-text">Order Service</span>
           </button>
         </div>
@@ -466,7 +466,77 @@
             </li>
           </ul>
         </div>
+        <div class="subscribe">
+          <p class="social-media">Subscribe</p>
+          <form action="">
+            <label for="">
+              <input type="email" id="" />
+            </label>
+            <button class="cloce-bnt" data-modal-close></button>
+          </form>
+        </div>
       </div>
     </footer>
+    <div class="backdrop" data-modal>
+      <div class="modal">
+        <form action="">
+          <button type="submit" class="close-bnt">
+            <svg class="close-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+          <p class="your-contacts">
+            Leave your contacts and we will call you back
+          </p>
+          <div>
+            <label for="">
+              <div>
+                <svg class="name-icon" width="12" height="12">
+                  <use href="./images/icons.svg#icon-person"></use>
+                </svg>
+                <input type="text" />
+              </div>
+            </label>
+          </div>
+          <div>
+            <label for="">
+              <div>
+                <svg class="tel-icon" width="12" height="12">
+                  <use href="./images/icons.svg#icon-phone"></use>
+                </svg>
+                <input type="tel" />
+              </div>
+            </label>
+          </div>
+          <div>
+            <label for="">
+              <div>
+                <svg class="email-icon" width="12" height="12">
+                  <use href="./images/icons.svg#icon-email"></use>
+                </svg>
+                <input type="email" />
+              </div>
+            </label>
+          </div>
+          <div>
+            <label for="">
+              <div>
+                <textarea name="" id=""></textarea>
+                <input type="text" />
+              </div>
+            </label>
+            <button type="submit" class="btn">Send</button>
+          </div>
+          <div>
+            <input type="checkbox" />
+            <label for="">
+              <span></span>
+              <a href=""></a>
+            </label>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>

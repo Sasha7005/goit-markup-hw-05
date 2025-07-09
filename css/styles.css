@@ -501,10 +501,11 @@ img {
 }
 
 .modal {
+  padding: 72px 24px 24px 24px;
   display: flex;
   flex-direction: column;
   position: absolute;
-  padding: 16px 24px 24px 8px;
+
   top: 50%;
   left: 50%;
   width: 408px;
@@ -545,7 +546,8 @@ img {
 }
 .close-bnt:hover,
 .close-bnt:focus {
-  fill: #ffffff;
+  background-color: #404bbf;
+  border: none;
 }
 .close-icon {
   fill: #2e2f42;

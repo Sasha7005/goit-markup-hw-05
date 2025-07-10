@@ -721,19 +721,9 @@ textarea {
   fill: #4d5ae5;
 }
 .form-checkbox {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   margin-bottom: 24px;
 }
-.text-privacy {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  color: #8e8f99;
-  margin-top: 16px;
-}
+
 .btn-form {
   display: block;
   min-width: 169px;
@@ -763,19 +753,7 @@ textarea {
 .user-form-wrapper {
   margin-bottom: 16px;
 }
-.privacy-policy {
-  width: 16px;
-  height: 16px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 2px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  fill: transparent;
-}
+
 .check-icon {
   top: 50%;
 }
@@ -794,6 +772,38 @@ textarea {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .input-checkbox:checked + .checkbox-privacy .form-own-checkbox {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
+.text-privacy {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  margin-top: 16px;
+}
+.privacy-policy {
+  background-color: #ffffff;
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+  margin-right: 8px;
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #4d5ae5;
+}
+.input-checkbox:checked + .checkbox-privacy .privacy-policy {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;

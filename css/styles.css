@@ -808,3 +808,10 @@ textarea {
   border: none;
   fill: #f4f4fd;
 }
+.checkbox-privacy {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.7;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+}

@@ -686,7 +686,7 @@ textarea {
   padding-bottom: 4px;
   width: 360px;
   height: 40px;
-
+  border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   background-color: transparent;
 
@@ -719,6 +719,11 @@ textarea {
   max-width: 360px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.user-form-container:hover .icon-name,
+.user-form-container:focus .icon-name {
+  fill: #4d5ae5;
 }
 
 .form-user:hover,

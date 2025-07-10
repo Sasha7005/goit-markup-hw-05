@@ -548,6 +548,7 @@ img {
 .close-bnt:focus {
   background-color: #404bbf;
   border: none;
+  fill: #ffffff;
 }
 
 .close-bnt:hover .close-icon {
@@ -670,7 +671,7 @@ textarea {
 /* form  */
 
 .label-form {
-  margin-bottom: 8px;
+  margin-bottom: px;
 
   display: block;
   font-weight: 400;

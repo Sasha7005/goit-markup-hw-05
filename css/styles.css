@@ -654,7 +654,7 @@ textarea {
   color: #ffffff;
 }
 ::placeholder {
-  color: #ffffff;
+  color: rgba(46, 47, 66, 0.4);
 }
 .form-footer {
   display: flex;
@@ -667,8 +667,6 @@ textarea {
   fill: #fff;
   margin-left: 16px;
 }
-
-/* form  */
 
 .form-user {
   padding-left: 38px;
@@ -758,8 +756,6 @@ textarea {
   top: 50%;
 }
 
-.container-input {
-}
 .label-form {
   margin-bottom: 4px;
 

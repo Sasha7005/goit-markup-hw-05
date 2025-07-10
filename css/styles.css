@@ -670,17 +670,6 @@ textarea {
 
 /* form  */
 
-.label-form {
-  margin-bottom: 4px;
-
-  display: block;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  color: #8e8f99;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 .form-user {
   padding-left: 38px;
   position: relative;
@@ -788,17 +777,24 @@ textarea {
   fill: transparent;
 }
 .check-icon {
+  top: 50%;
 }
-.check:checked + .check-icon {
-  color: #404bbf;
+
+.container-input {
+}
+.label-form {
+  margin-bottom: 4px;
+
+  display: block;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.input-checkbox:checked + .checkbox-privacy .form-own-checkbox {
+  background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
-}
-
-:root {
-  --link-color: #4d5ae5;
-}
-
-.privacy {
-  color: #4d5ae5;
 }

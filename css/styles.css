@@ -815,3 +815,7 @@ textarea {
 .container-input:focus .icon-name {
   fill: #4d5ae5;
 }
+.user-form-container:hover .icon-name,
+.ser-form-container:focus .icon-name {
+  fill: #4d5ae5;
+}

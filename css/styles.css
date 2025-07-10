@@ -693,10 +693,6 @@ textarea {
   top: 50%;
 }
 
-.icon-name:focus {
-  fill: #4d5ae5;
-}
-
 .user-form-container {
   margin-bottom: 8px;
   position: relative;
@@ -712,7 +708,7 @@ textarea {
 }
 
 .form-user:hover .icon-name,
-.form-user:focus {
+.form-user:focus .icon-name {
   fill: #4d5ae5;
 }
 .label-form:hover,

@@ -809,7 +809,8 @@ textarea {
 .container-input {
   position: relative;
 }
-.form-user:hover {
+.form-user:hover,
+.form-user:focus {
   border-color: #4d5ae5;
 }
 .container-input:focus .icon-name {
@@ -817,5 +818,8 @@ textarea {
 }
 .user-form-container:hover .icon-name,
 .ser-form-container:focus .icon-name {
+  fill: #4d5ae5;
+}
+.form-user:focus-within {
   fill: #4d5ae5;
 }

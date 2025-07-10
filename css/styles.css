@@ -670,7 +670,8 @@ textarea {
 /* form  */
 
 .label-form {
-  margin-bottom: 4px;
+  margin-bottom: 8px;
+
   display: block;
   font-weight: 400;
   font-size: 12px;
